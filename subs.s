@@ -6,6 +6,13 @@ public class subs {
          1: invokespecial #1                  // Method java/lang/Object."<init>":()V
          4: return
 
+  private static int subss(int, int);
+    Code:
+         0: iload_0
+         1: iload_1
+         2: isub
+         3: ireturn
+
   public static void main(java.lang.String[]);
     Code:
          0: iconst_1
