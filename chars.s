@@ -6,6 +6,14 @@ public class chars {
          1: invokespecial #1                  // Method java/lang/Object."<init>":()V
          4: return
 
+  private static char charss(char, char);
+    Code:
+         0: iload_0
+         1: iload_1
+         2: iadd
+         3: i2c
+         4: ireturn
+
   public static void main(java.lang.String[]);
     Code:
          0: bipush        65
